@@ -5,5 +5,4 @@
      complaint_type,
      borough
  FROM {{ source('raw', 'source_dot_service_requests_history') }}
- LIMIT 10;
- 
+ LIMIT 10
